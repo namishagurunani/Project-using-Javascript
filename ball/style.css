@@ -1,0 +1,27 @@
+body{
+   background-image: linear-gradient(rgb(127, 159, 29),transparent);
+}
+#ball{
+    background-image: url(ball.webp);
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 1px;
+    display: inline;
+    padding-top: 60px;
+    padding-left: 53px;
+    box-sizing: border-box;
+    position: absolute;
+    transition: transform 0.1s;
+    animation: moveAnimation 0.05s infinite alternate;
+}
+@keyframes moveAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
