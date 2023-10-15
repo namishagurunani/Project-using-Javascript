@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-image: url(https://media.istockphoto.com/id/1462978145/photo/abstract-background.webp?b=1&s=170667a&w=0&k=20&c=e8q51_lHYmSLTpf0gIgVTjKR-q-12oi01EsQtw7KTAM=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: c;
+}
+
+
+.calendar-container {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.day-name {
+        margin: 0;
+         background: rgb(29, 110, 181);
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+.month-name {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year {
+    margin: 20px 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.time {
+    font-size: 36px;
+   color:  rgb(29, 110, 181);
+   animation: scaleUp 0.5s infinite alternate;
+}
+@keyframes scaleUp {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
